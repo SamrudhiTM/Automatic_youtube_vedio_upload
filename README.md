@@ -49,25 +49,25 @@ This repository contains Python code to download a video from OneDrive and then 
    cd onedrive-to-youtube
 
 
-Configure API credentials:
+**Configure API credentials:**
 
 Place the client.json file (from Google API setup) in the project root.
 Update main.py with your Microsoft Azure client ID.
 
 
 
-Usage
+**Usage**
+
 Authenticate with OneDrive:
-
 The app will open a browser window to authenticate with your Microsoft account.
-Select a video file to download from your OneDrive.
-Authenticate with YouTube:
+Select a video file to download from your OneDrive
 
+Authenticate with YouTube:
 The app will prompt for Google account authentication.
 Allow the application to access your YouTube account.
+
 Video Upload:
-
 The app uploads the video to your YouTube account as a private video with the given title and description.
-Clean-Up:
 
-The downloaded video is deleted from local storage after a successful upload.
+Clean-Up:
+the downloaded video is deleted from local storage after a successful upload.
